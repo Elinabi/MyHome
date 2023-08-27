@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/tablayoutFragment">
+
+    <fragment
+        android:id="@+id/camerasFragment"
+        android:name="com.example.myhome.ui.fragments.cameras.CamerasFragment"
+        android:label="fragment_cameras"
+        tools:layout="@layout/fragment_cameras" />
+    <fragment
+        android:id="@+id/doorsFragment"
+        android:name="com.example.myhome.ui.fragments.doors.DoorsFragment"
+        android:label="fragment_doors"
+        tools:layout="@layout/fragment_doors" />
+    <fragment
+        android:id="@+id/tablayoutFragment"
+        android:name="com.example.myhome.ui.fragments.tablayout.TablayoutFragment"
+        android:label="fragment_tablayout"
+        tools:layout="@layout/fragment_tablayout" />
+</navigation>
